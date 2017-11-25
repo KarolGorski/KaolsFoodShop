@@ -1,0 +1,22 @@
+﻿@model IEnumerable<KaolsFoodShop.Models.Food>
+
+<html>
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title> Kaol's Food Shop</title>
+
+</head>
+<body>
+    @foreach (var food in Model)
+    {
+        <div>
+            <h2>@food.Name</h2>
+            <h3>@food.Price.ToString("c")</h3>
+            <h2>@food.Category.CategoryName</h2>
+
+        </div>
+    }
+</body>
+</html>
