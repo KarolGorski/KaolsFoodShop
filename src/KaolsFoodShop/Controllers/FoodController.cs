@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using KaolsFoodShop.Models;
+using KaolsFoodShop.ViewModels;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -22,7 +23,11 @@ namespace KaolsFoodShop.Controllers
 
         public ViewResult List()
         {
-            return View(_foodRepository.Foods);
+            FoodListViewModel foodListViewModel = new FoodListViewModel();
+            foodListViewModel.Foods = _foodRepository.Foods;
+
+            foodListViewModel.CurrentCategory = "Cheese cakes";
+            return View(foodListViewModel);
         }
     }
 }
