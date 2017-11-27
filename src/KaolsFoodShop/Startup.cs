@@ -34,6 +34,12 @@ namespace KaolsFoodShop
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IFoodRepository, FoodRepository>();
             services.AddMvc();
+
+            services.AddMemoryCache();
+            services.AddSession();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +49,7 @@ namespace KaolsFoodShop
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+            app.UseSession();
 
             DbInitializer.Seed(app);
         }
