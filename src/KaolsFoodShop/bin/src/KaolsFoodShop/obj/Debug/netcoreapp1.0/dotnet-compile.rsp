@@ -1,5 +1,5 @@
---temp-output:C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\obj\Debug\netcoreapp1.0\
---out:C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\bin\Debug\netcoreapp1.0\KaolsFoodShop.dll
+--temp-output:C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\bin\src\KaolsFoodShop\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\bin\src\KaolsFoodShop\bin\Debug\netcoreapp1.0\KaolsFoodShop.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -197,7 +197,7 @@
 --reference:C:\Users\Karol\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Karol\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Karol\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\obj\Debug\netcoreapp1.0\KaolsFoodShopdotnet-compile.deps.json",KaolsFoodShop.deps.json
+--resource:"C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\bin\src\KaolsFoodShop\obj\Debug\netcoreapp1.0\KaolsFoodShopdotnet-compile.deps.json",KaolsFoodShop.deps.json
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Program.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Startup.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Controllers\FoodController.cs
@@ -207,7 +207,6 @@ C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Migratio
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\AppDbContext.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\Category.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\CategoryRepository.cs
-C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\DbInitializer.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\Food.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\FoodRepository.cs
 C:\Users\Karol\Documents\VisualProjects\KaolsFoodShop\src\KaolsFoodShop\Models\ICategoryRepository.cs
